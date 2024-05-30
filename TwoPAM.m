@@ -7,8 +7,21 @@ clc;
 Myerror = 0;
 MATLABerror = 0;
 
+%Record Live Audio in 48k
 %________________________________________________________________________%
-%Creating the test vector
+% fs = 48000; 
+% nBits = 16; 
+% nChannels = 1;
+% recDuration = 1; 
+% 
+% recObj = audiorecorder(fs, nBits, nChannels);
+% recordblocking(recObj, recDuration);
+% sin_n = getaudiodata(recObj);
+% sin_n = int16((sin_n/max(sin_n)) * (2^15));
+
+
+%________________________________________________________________________%
+Creating the test vector
 Fs = 4800; % Hz
 duration = .1; 
 freq1 = 100; 

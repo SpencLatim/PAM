@@ -159,7 +159,7 @@ title('Transmitted Modulated Signal')
 %scatterplot(T_OUT,16)   %Constellation Diagram
 
 
-plot of impulse response and magnitude for filter
+%plot of impulse response and magnitude for filter
  [H, F] = freqz(coeff, 1, 4096, 48000); 
  plot(F, 20*log10(abs(H)), F, -60)
  figure;

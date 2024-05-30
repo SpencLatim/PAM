@@ -1,0 +1,1 @@
+"./FIR.obj" "./main.obj" "./FFT/FFT.obj" "./FFT/FFT_data.obj" "./FFT/rtGetInf.obj" "./FFT/rtGetNaN.obj" "./FFT/rt_nonfinite.obj" "../lnkx.cmd" -l"cslVC5505.lib" -l"rts55x.lib" 
