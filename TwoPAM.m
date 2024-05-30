@@ -21,7 +21,7 @@ MATLABerror = 0;
 
 
 %________________________________________________________________________%
-Creating the test vector
+%Creating the test vector
 Fs = 4800; % Hz
 duration = .1; 
 freq1 = 100; 
